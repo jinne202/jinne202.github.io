@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2주차 과제</title>
+</head>
+<body>
+    <script>
+         var classnum = {};
+        classnum.attack = function (){
+            document.write("21561129"+"<br>"+"<br>");
+        };
+        classnum.attack();
+        
+        var myname = {"name":"한은진", "familyname":"한", "engname":"HANEUNJIN"}; 
+        myname.initial = "jinne";
+        
+        document.write("안녕하세요 저는 "+myname.name+"입니다"+"   -   "+myname.hasOwnProperty("initial")+"<br>"+"<br>");
+        
+        var profile = ["21세","계원예술대학교","용인시"];
+        profile.push("164cm");
+        delete profile[2];
+        document.write(profile.length+"  나이:"+profile[0]+"   학교:"+profile[1]+"   키:"+profile[3]+"<br>"+"<br>");
+        
+        var contact = {
+            email : "hanb5468@gmail.com",
+            instagram : "@jinne_com",
+            gitjub : "https://jinne202.github.io/"
+        };
+        
+        for (var attr in contact){
+            document.write(attr,":",contact[attr]+"<br>");
+        }
+        
+        
+        var idol = ["아이콘","오마이걸","빅뱅","이종석"];
+        var food = ["치킨", "샤브샤브", "민트초코아이스크림"]
+        
+        var promsg = idol.join();
+        var rev = food.reverse();
+        
+        document.write("<br>"+"좋아하는 연예인  : "+promsg+"<br>");
+        document.write("좋아하는 음식  : "+rev+"<br>");
+        
+        var like = {};
+        like["game"]="롤";
+        like["phonegame"]="놀러와마이홈";
+        like["game2"]="오버워치";        
+        
+        var dislike = {};
+        delete dislike;
+        
+        document.write("좋아하는 게임  : "+like["game"]+", "+like["phonegame"]+", "+like["game2"]+"<br>"+"<br>");
+        
+        function movie (){
+            var mymovie = "harrypotter";
+            return mymovie;
+            mymovie += "grandbudapest";
+        }
+        
+        document.write("좋아하는 영화 : "+movie()+"<br>");
+        
+        var coffee = "스타벅스";
+        function cafe (bean) {
+            bean = "콜롬비아";
+        }
+        cafe(coffee);
+        document.write("좋아하는 까페 : "+coffee+"<br>"+"<br>");
+        
+        var r = 2;
+        
+        for(i=1; i<r; i++){
+            document.write(i+". 후회 없이 마지막 학기 보내기"+"<br>"+"<br>");
+        }
+        
+        
+        
+        var a = 1;
+        var sum = 0; 
+        
+        while (a<10){
+            sum += a;
+            a++;
+        }
+        document.write("<br>"+"js 실습 1. "+"1부터 9까지 합계"+sum+"<br>");
+        
+        var dream=function(){
+            document.write("<br>"+"희망직업 : "+"퍼블리셔"+"<br>");
+        }
+        dream();
+        
+        function company (){
+            document.write("가고싶은 회사 : "+"YG"+"<br>"+"<br>");
+        }
+        company();
+        
+        var finish = '자기소개 끝';
+        function nameChanger(){
+            finish = "감사합니다";
+        }
+        nameChanger();
+        document.write(finish);
+        
+        
+        
+        
+    </script>
+</body>
+</html>
+
+

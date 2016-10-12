@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sub2</title>
+    <link href="css/sub2.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+   <div id="nav">
+       <div id="menu_bar">
+       <a href="#" class="menu_b">
+        <ul>
+            <li class="line1">line1</li>
+            <li class="line2">line1</li>
+            <li class="line3">line1</li>
+        </ul>
+        </a>
+        </div>
+        <div id="menulist">
+            <ul>
+                <li><a href="index.html">menu1</a></li>
+                <li><a href="sub2.html">menu2</a></li>
+                <li><a href="sub1.html">menu3</a></li>
+                <li><a href="sub3.html">sub3</a></li>
+            </ul>
+        </div>
+   </div>
+   </header>
+   
+   <div id="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    </div>
+   
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.js"></script>
+   <script type="text/javascript">
+        $(document).ready(function(){
+        $(".menu_b").click(function(){
+            $("#menulist").fadeToggle("slow");
+        });
+        });
+
+$(function () {
+    
+    var scrolls = 0,        // 현재 스크롤 위치값
+        $boxes = $('.box'); // 박스들
+    
+    // 스크롤 이벤트를 겁니다.
+    
+    $(window).on('scroll', function () {
+        
+        // 현재 스크롤 위치값
+        scrolls = $(window).scrollTop();
+        
+        // 박스들의 현재 위치를 체크
+        
+        $boxes.each(function () {
+            
+            if ( $(this).hasClass('on') ) {
+                return;
+            }
+            
+            if ( $(this).offset().top < $(window).height() - 100 + scrolls ) {
+                $(this).addClass('on').animate({
+                    'opacity': 1,
+                    'bottom': 0
+                }, 800);
+            }
+            
+        });
+    });
+    
+    $(window).trigger('scroll');
+});
+    </script>
+</body>
+</html>

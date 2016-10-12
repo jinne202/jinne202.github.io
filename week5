@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link href="css/common.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+   <div id="nav">
+       <div class="menu_bar">
+           <div class="line arr_t"></div>
+           <div class="line arr_m"></div>
+           <div class="line arr_b"></div>
+        </div>
+        <div id="menulist">
+            <ul>
+                <li><div> <a href="index.html" class="button menu">MAIN</a> </div></li>
+                <li><div> <a href="sub1.html" class="button menu">ART &amp; CULTURE</a> </div></li>
+                <li><div> <a href="#" class="button menu">LOCATION</a> </div></li>
+                <li><div> <a href="#" class="button menu">PHOTO</a> </div></li>
+            </ul>
+        </div>
+   </div>
+   </header>
+    <div class="page page1">
+        <div class="wrap_1">
+           <h1 class="show_box"><img src="image/main_font.png"/></h1>
+           <div class="draw_box">
+               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="450px" height="450px" viewBox="0 0 654 654" enable-background="new 0 0 654 654" xml:space="preserve">
+                <polyline fill="transparent" stroke="#ffffff" stroke-width="3"  stroke-miterlimit="10" points="330.455,6.354 651.102,327 330.455,647.646 "/>
+                <polyline fill="transparent" stroke="#ffffff" stroke-width="3"  stroke-miterlimit="10" points="330.455,647.646 9.809,327 330.455,6.354 "/>
+              </svg>
+              <div class="show_box"></div>
+           </div>
+            <div id="main_img1" class="boxleft">
+                <img src="image/main_1.png"/>
+            </div>
+            <div id="main_img2" class="boxright">
+                <img src="image/main_2.png"/>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page page2">
+        <div class="wrap_2">
+           <div class="wrap_2_t">
+            <h2>LINE UP</h2>
+            <div id="line_drawing" class="show_box">
+            </div>
+            </div>
+            <div id="lineupall">
+            <div id="p_wrap">
+            <p href="" data-rel="all" class="date">All</p>
+            <p data-rel="date1" class="date">라인업 재배열 1</p>
+            <p data-rel="date2" class="date">라인업 재배열 2</p>
+            <p data-rel="date3" class="date">라인업 재배열 3</p>
+            </div>
+            <div id="line_up">
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date2 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date1 all"></div>
+              <div class="tile date3 all"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page3">
+        <div class="wrap_3">
+            <div class="wrap_3_t">
+            <h2>TIME TABLE</h2>
+            <div id="line_drawing2" class="boxleft">
+                1
+            </div>
+            </div>
+            <div id="timeall">
+            <div id="p_wrap_time">
+            <p href="" data-rel="all" class="date">All</p>
+            <p data-rel="time1" class="date">타임 재배열 1</p>
+            <p data-rel="time2" class="date">타임 재배열 2</p>
+            <p data-rel="time3" class="date">타임 재배열 3</p>
+            </div>
+            <div class="time_up">
+                <ul>
+                    <li>
+                        <div class="time_up2 all time2">
+                            임시 테이블
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time_up3 all time3">
+                            임시 테이블
+                        </div>
+                    </li>
+                    <li>
+                        <div class="time_up1 all time1">
+                            임시 테이블
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page4">
+        <div class="wrap_4">
+            <div class="wrap_4_t">
+            <h2>TICKET</h2>
+            <div id="line_drawing"></div>
+            </div>
+        <div class="countdown">이 위치에 카운트 다운 시계</div>
+        <div class="tic_circle">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="245px" height="95px" viewBox="0 0 245 95" enable-background="new 0 0 245 95" xml:space="preserve">
+<rect x="16" y="4" fill="none" stroke="#fff" stroke-miterlimit="10" width="213" height="87.334"/>
+<polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="17.333,91.334 8.667,91.334 6.333,88 8.667,82.334 6.333,76 
+	8.667,70.334 6.333,64 8.667,58.334 6.333,52 8.667,46.333 6.333,40 8.667,34.333 6.333,28 8.667,22.333 6.333,16 8.667,10.333 
+	6.333,4 18.667,4 "/>
+<polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="226.349,91.334 235.016,91.334 237.349,88 235.016,82.334 
+	237.349,76 235.016,70.334 237.349,64 235.016,58.334 237.349,52 235.016,46.333 237.349,40 235.016,34.333 237.349,28 
+	235.016,22.333 237.349,16 235.016,10.333 237.349,4 225.016,4 "/>
+<g>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M68.159,27.122H56.788v33.121h-4.859V27.122H40.653V23.3h27.506
+		V27.122z"/>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M78.778,60.242h-4.859V23.3h4.859V60.242z"/>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M115.628,56.468c-3.067,2.642-7.03,4.293-12.22,4.293
+		c-10.946,0-18.023-8.397-18.023-18.919c0-11.087,7.36-19.014,17.834-19.014c4.529,0,8.21,0.944,11.843,3.114l-1.981,3.444
+		c-2.689-1.604-5.945-2.595-9.908-2.595c-8.115,0-12.739,6.888-12.739,15.098c0,8.115,5.048,14.815,12.975,14.815
+		c3.443,0,7.124-1.228,9.672-3.492L115.628,56.468z"/>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M126.531,38.021l15.145-14.72h6.559l-18.07,17.409l20.523,19.533
+		h-6.652l-17.504-16.843v16.843h-4.859V23.3h4.859V38.021z"/>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M179.377,60.242h-24.391V23.3h23.873v3.821h-19.014v12.031h18.021
+		v3.821h-18.021v13.447h19.531V60.242z"/>
+	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M210.756,27.122h-11.369v33.121h-4.861V27.122H183.25V23.3h27.506
+		V27.122z"/>
+</g>
+<line fill="none" stroke="#fff" stroke-miterlimit="10" x1="31.333" y1="72.334" x2="215.333" y2="72.334"/>
+<line fill="none" stroke="#fff" stroke-miterlimit="10" x1="31.333" y1="79.334" x2="215.333" y2="79.334"/>
+</svg>
+        </div>
+        <div class="ticket">
+            <ul>
+                <li>ticket</li>
+                <li>ticket</li>
+                <li>ticket</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="page page5">
+        <div class="wrap_5">
+            <div class="wrap_5_t">
+            <h2>MAP</h2>
+            <div class="line_drawing">
+                1
+            </div>
+            </div>
+            <div class="map">
+                <div class="map_icon1">1</div>
+                <div class="map_icon2">2</div>
+                <div class="map_icon3">3</div>
+            </div>
+            <div class="map_icon">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <!--특정 시설을 클릭하면 그 시설에 효과가 생기는 jquery 삽입 예정 -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".menu_bar").click(function(){
+        $("#menulist").fadeToggle("slow");
+        $(this).toggleClass("clarrow");
+    });
+});
+
+    
+var pageIndex = 0; //현재페이지 인덱스
+
+/************** 스크롤방향 판단 *****************/
+var scrollFunc = function (e) {
+    e = e || window.event;
+    if (e.wheelDelta) {  //익스, 크롬  
+        if (e.wheelDelta > 0) { //위
+
+            if(!$(".page").is(":animated") && pageIndex < 0) // animate가 진행안할때 및 첫페이지가 아닐때
+            {
+                pageIndex++; //현재페이지 인덱스 변동
+                $(".page").each(function(index){ //매개 page박스의 top비율을 100%의 배수로 설정
+                    $(".page").eq(index).animate({"top":100*(pageIndex+index)+"%"},800);
+                });
+            }
+
+        }
+        if (e.wheelDelta < 0) { //아래
+            
+            if(!$(".page").is(":animated") && pageIndex > -($(".page").length-1)) // animate가 진행안할때 및 마지막페이지가 아닐때
+            {
+                pageIndex--; //현재페이지 인덱스 변동
+                $(".page").each(function(index){ //매개 page박스의 top비율을 100%의 배수로 설정
+                    $(".page").eq(index).animate({"top":100*(pageIndex+index)+"%"},800);
+                });
+            }
+
+        }
+    }
+    else if (e.detail) {  //Firefox
+        if (e.detail< 0) { //위
+            
+            if(!$(".page").is(":animated") && pageIndex < 0) // animate가 진행안할때 및 첫페이지가 아닐때
+            {
+                pageIndex++; //현재페이지 인덱스 변동
+                $(".page").each(function(index){ //매개 page박스의 top비율을 100%의 배수로 설정
+                    $(".page").eq(index).animate({"top":100*(pageIndex+index)+"%"},800);
+                });
+            }
+
+        }
+        if (e.detail> 0) { //아래
+            
+            if(!$(".page").is(":animated") && pageIndex > -($(".page").length-1)) // animate가 진행안할때 및 마지막페이지가 아닐때
+            {
+                pageIndex--; //현재페이지 인덱스 변동
+                $(".page").each(function(index){ //매개 page박스의 top비율을 100%의 배수로 설정
+                    $(".page").eq(index).animate({"top":100*(pageIndex+index)+"%"},800);
+                });
+            }
+
+        }
+    }
+
+}
+
+//페이지에 스크롤이벤트 bind
+if (document.addEventListener) {
+    document.addEventListener('DOMMouseScroll', scrollFunc, false);
+}
+//스크롤시 scrollFunc함수 진행
+window.onmousewheel = document.onmousewheel = scrollFunc;
+/************** 스크롤방향 판단 끝 *****************/
+
+
+
+    
+    jQuery.extend( jQuery.easing,
+{
+	easeInOutQuad: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t + b;
+		return -c/2 * ((--t)*(t-2) - 1) + b;
+  }
+});
+
+function SVG(tag) {
+    return document.createElementNS('http://www.w3.org/2000/svg', tag);
+}
+
+
+
+function replaceRectsWithPaths(parentElement) {
+
+
+    var rects = $(parentElement).find('rect');
+
+    $.each(rects, function() {
+
+        var rectX = $(this).attr('x');
+        var rectY = $(this).attr('y');
+
+        var rectX2 = parseFloat(rectX) + parseFloat($(this).attr('width'));
+        var rectY2 = parseFloat(rectY) + parseFloat($(this).attr('height'));
+
+        var convertedPath = 'M' + rectX + ',' + rectY + ' ' + rectX2 + ',' + rectY + ' ' + rectX2 + ',' + rectY2 + ' ' + rectX + ',' + rectY2 + ' ' + rectX + ',' + rectY;
+
+
+        $(SVG('path'))
+        .attr('d', convertedPath)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(rects).remove();
+}
+
+
+
+function replaceLinesWithPaths(parentElement) {
+
+
+    var lines = $(parentElement).find('line');
+
+    $.each(lines, function() {
+
+        var lineX1 = $(this).attr('x1');
+        var lineY1 = $(this).attr('y1');
+
+        var lineX2 = $(this).attr('x2');
+        var lineY2 = $(this).attr('y2');
+
+        var convertedPath = 'M' + lineX1 + ',' + lineY1 + ' ' + lineX2 + ',' + lineY2;
+
+
+        $(SVG('path'))
+        .attr('d', convertedPath)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(lines).remove();
+}
+
+
+
+function replaceCirclesWithPaths(parentElement) {
+
+    var circles = $(parentElement).find('circle');
+
+    $.each(circles, function() {
+
+        var cX = $(this).attr('cx');
+        var cY = $(this).attr('cy');
+        var r = $(this).attr('r');
+        var r2 = parseFloat(r * 2);
+
+        var convertedPath = 'M' + cX + ', ' + cY + ' m' + (-r) + ', 0 ' + 'a ' + r + ', ' + r + ' 0 1,0 ' + r2 + ',0 ' + 'a ' + r + ', ' + r + ' 0 1,0 ' + (-r2) + ',0 ';
+
+        $(SVG('path'))
+        .attr('d', convertedPath)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(circles).remove();
+}
+
+
+
+function replaceEllipsesWithPaths(parentElement) {
+
+
+    var ellipses = $(parentElement).find('ellipse');
+
+    $.each(ellipses, function() {
+
+        var cX = $(this).attr('cx');
+        var cY = $(this).attr('cy');
+        var rX = $(this).attr('rx');
+        var rY = $(this).attr('ry');
+
+        var convertedPath = 'M' + cX + ', ' + cY + ' m' + (-rX) + ', 0 ' + 'a ' + rX + ', ' + rY + ' 0 1,0 ' + rX*2 + ',0 ' + 'a ' + rX + ', ' + rY + ' 0 1,0 ' + (-rX*2) + ',0 ';
+
+        $(SVG('path'))
+        .attr('d', convertedPath)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(ellipses).remove();
+}
+
+
+
+
+function replacePolygonsWithPaths(parentElement) {
+
+
+    var polygons = $(parentElement).find('polygon');
+
+    $.each(polygons, function() {
+
+        var points = $(this).attr('points');
+        var polyPoints = points.split(/[ ,]+/);
+        var endPoint = polyPoints[0] + ', ' + polyPoints[1];
+
+        $(SVG('path'))
+        .attr('d', 'M' + points + ' ' + endPoint)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(polygons).remove();
+}
+
+
+
+
+function replacePolylinesWithPaths(parentElement) {
+
+
+    var polylines = $(parentElement).find('polyline');
+
+    $.each(polylines, function() {
+
+        var points = $(this).attr('points');
+
+        $(SVG('path'))
+        .attr('d', 'M' + points)
+        .attr('fill', $(this).attr('fill'))
+        .attr('stroke', $(this).attr('stroke'))
+        .attr('stroke-width', $(this).attr('stroke-width'))
+        .insertAfter(this);
+
+    });
+
+    $(polylines).remove();
+}
+
+function hideSVGPaths(parentElement) {
+
+    var paths = $(parentElement).find('path');
+
+    //for each PATH..
+    $.each( paths, function() {
+
+        //get the total length
+        var totalLength = this.getTotalLength();
+
+        //set PATHs to invisible
+        $(this).css({
+            'stroke-dashoffset': totalLength,
+            'stroke-dasharray': totalLength + ' ' + totalLength
+        });
+    });
+}
+
+function drawSVGPaths(_parentElement, _timeMin, _timeMax, _timeDelay) {
+
+
+    var paths = $(_parentElement).find('path');
+
+    //for each PATH..
+    $.each( paths, function(i) {
+
+        //get the total length
+        var totalLength = this.getTotalLength();
+
+
+        //set PATHs to invisible
+        $(this).css({
+            'stroke-dashoffset': totalLength,
+            'stroke-dasharray': totalLength + ' ' + totalLength
+        });
+
+        //animate
+        $(this).delay(_timeDelay*i).animate({
+            'stroke-dashoffset': 0
+        }, {
+            duration: Math.floor(Math.random() * _timeMax) + _timeMin
+            ,easing: 'easeInOutQuad'
+        });
+    });
+}
+
+function replaceWithPaths(parentElement) {
+
+    replaceRectsWithPaths(parentElement);
+    replaceLinesWithPaths(parentElement);
+    replaceEllipsesWithPaths(parentElement);
+    replaceCirclesWithPaths(parentElement);
+    replacePolygonsWithPaths(parentElement);
+    replacePolylinesWithPaths(parentElement);    
+}
+
+function startSVGAnimation(parentElement) {
+    drawSVGPaths(parentElement, 1000, 1000, 50);
+}
+
+replaceWithPaths($('svg'));
+startSVGAnimation($('svg'));
+    
+$(function() {
+		var selectedClass = "";
+		$("p").click(function(){
+		selectedClass = $(this).attr("data-rel");
+    $("#line_up").fadeTo(500, 0);
+    $("#time_up").fadeTo(500, 0);
+		$("#line_up div").not("."+selectedClass).fadeOut();
+        $("#time_up div").not("."+selectedClass).fadeOut();
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn();
+      $("#line_up").fadeTo(500, 1);
+      $("#time_up").fadeTo(500, 1);
+    }, 500);
+		
+	});
+});
+    
+//trigger시 생성
+$(function () {
+    
+    var scrolls = 0,        // 현재 스크롤 위치값
+        $boxesleft = $('.boxleft'),
+        $boxesright = $('.boxright'), // 박스들
+        $showboxes = $('.show_box');
+    
+    $(window).on('scroll', function () {
+        
+        // 현재 스크롤 위치값
+        scrolls = $(window).scrollTop();
+        
+        // 박스들의 현재 위치를 체크합니다.
+        // 왼쪽 박스 
+        $boxesleft.each(function () {
+            if ( $(this).hasClass('on') ) {
+                return;
+            }
+            
+            if ( $(this).offset().top < $(window).height() - 100 + scrolls ) {
+                $(this).addClass('on').animate({
+                    'opacity': 1,
+                    'left': 0
+                }, 800);
+            }
+            
+        });
+        //오른쪽 박스
+        $boxesright.each(function () {
+            if ( $(this).hasClass('on') ) {
+                return;
+            }
+            
+            if ( $(this).offset().top < $(window).height() - 100 + scrolls ) {
+                $(this).addClass('on').animate({
+                    'opacity': 1,
+                    'left': 0
+                }, 800);
+            }
+            
+        });
+        //opacity
+        $showboxes.each(function () {
+            if ( $(this).hasClass('on') ) {
+                return;
+            }
+            
+            if ( $(this).offset().top < $(window).height() - 100 + scrolls ) {
+                $(this).addClass('on').animate({
+                    'opacity': 1
+                }, 1500);
+            }
+            
+        });
+    });
+    $(window).trigger('scroll');
+});
+
+</script>
+
+</body>
+</html>

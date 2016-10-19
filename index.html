@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>index</title>
-    <link href="common.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
 </head>
 <body>
   <header>
@@ -17,8 +17,8 @@
             <ul>
                 <li><div> <a href="index.html" class="button menu">MAIN</a> </div></li>
                 <li><div> <a href="sub1.html" class="button menu">ART &amp; CULTURE</a> </div></li>
-                <li><div> <a href="sub2.html" class="button menu">LOCATION</a> </div></li>
-                <li><div> <a href="sub3.html" class="button menu">PHOTO</a> </div></li>
+                <li><div> <a href="#" class="button menu">LOCATION</a> </div></li>
+                <li><div> <a href="#" class="button menu">PHOTO</a> </div></li>
             </ul>
         </div>
    </div>
@@ -29,8 +29,8 @@
            <div class="draw_box">
                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             	 width="450px" height="450px" viewBox="0 0 654 654" enable-background="new 0 0 654 654" xml:space="preserve">
-                <polyline fill="transparent" stroke="#ffffff" stroke-width="3"  stroke-miterlimit="10" points="330.455,6.354 651.102,327 330.455,647.646 "/>
-                <polyline fill="transparent" stroke="#ffffff" stroke-width="3"  stroke-miterlimit="10" points="330.455,647.646 9.809,327 330.455,6.354 "/>
+                <polyline fill="transparent" stroke="#ffffff" stroke-width="4"  stroke-miterlimit="10" points="330.455,6.354 651.102,327 330.455,647.646 "/>
+                <polyline fill="transparent" stroke="#ffffff" stroke-width="4"  stroke-miterlimit="10" points="330.455,647.646 9.809,327 330.455,6.354 "/>
               </svg>
               <div class="show_box"></div>
            </div>
@@ -47,7 +47,7 @@
         <div class="wrap_2">
            <div class="wrap_2_t">
             <h2>LINE UP</h2>
-            <div id="line_drawing" class="show_box">
+            <div id="line_drawing" class="drawing_1">
             </div>
             </div>
             <div id="lineupall">
@@ -100,31 +100,31 @@
         <div class="wrap_3">
             <div class="wrap_3_t">
             <h2>TIME TABLE</h2>
-            <div id="line_drawing2" class="boxleft">
+            <div id="line_drawing2" class="drawing_2">
                 1
             </div>
             </div>
             <div id="timeall">
             <div id="p_wrap_time">
-            <p href="" data-rel="all" class="date">All</p>
-            <p data-rel="time1" class="date">타임 재배열 1</p>
-            <p data-rel="time2" class="date">타임 재배열 2</p>
-            <p data-rel="time3" class="date">타임 재배열 3</p>
+            <p href="" data-rel="all2" class="time">All</p>
+            <p data-rel="time1" class="time">타임 재배열 1</p>
+            <p data-rel="time2" class="time">타임 재배열 2</p>
+            <p data-rel="time3" class="time">타임 재배열 3</p>
             </div>
-            <div class="time_up">
+            <div id="time_up">
                 <ul>
                     <li>
-                        <div class="time_up2 all time2">
+                        <div class="tile time1 all2">
                             임시 테이블
                         </div>
                     </li>
                     <li>
-                        <div class="time_up3 all time3">
+                        <div class="tile time2 all2">
                             임시 테이블
                         </div>
                     </li>
                     <li>
-                        <div class="time_up1 all time1">
+                        <div class="tile time3 all2">
                             임시 테이블
                         </div>
                     </li>
@@ -137,37 +137,70 @@
         <div class="wrap_4">
             <div class="wrap_4_t">
             <h2>TICKET</h2>
-            <div id="line_drawing"></div>
+            <div id="line_drawing3" class="drawing_3"></div>
             </div>
-        <div class="countdown">이 위치에 카운트 다운 시계</div>
+        <div class="countdown">
+            <div id="timer">
+              <span id="days"></span> : 
+              <span id="hours"></span> :
+              <span id="minutes"></span> :
+              <span id="seconds"></span>
+            </div>
+        </div>
         <div class="tic_circle">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="245px" height="95px" viewBox="0 0 245 95" enable-background="new 0 0 245 95" xml:space="preserve">
-<rect x="16" y="4" fill="none" stroke="#fff" stroke-miterlimit="10" width="213" height="87.334"/>
-<polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="17.333,91.334 8.667,91.334 6.333,88 8.667,82.334 6.333,76 
-	8.667,70.334 6.333,64 8.667,58.334 6.333,52 8.667,46.333 6.333,40 8.667,34.333 6.333,28 8.667,22.333 6.333,16 8.667,10.333 
-	6.333,4 18.667,4 "/>
-<polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="226.349,91.334 235.016,91.334 237.349,88 235.016,82.334 
-	237.349,76 235.016,70.334 237.349,64 235.016,58.334 237.349,52 235.016,46.333 237.349,40 235.016,34.333 237.349,28 
-	235.016,22.333 237.349,16 235.016,10.333 237.349,4 225.016,4 "/>
-<g>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M68.159,27.122H56.788v33.121h-4.859V27.122H40.653V23.3h27.506
-		V27.122z"/>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M78.778,60.242h-4.859V23.3h4.859V60.242z"/>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M115.628,56.468c-3.067,2.642-7.03,4.293-12.22,4.293
-		c-10.946,0-18.023-8.397-18.023-18.919c0-11.087,7.36-19.014,17.834-19.014c4.529,0,8.21,0.944,11.843,3.114l-1.981,3.444
-		c-2.689-1.604-5.945-2.595-9.908-2.595c-8.115,0-12.739,6.888-12.739,15.098c0,8.115,5.048,14.815,12.975,14.815
-		c3.443,0,7.124-1.228,9.672-3.492L115.628,56.468z"/>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M126.531,38.021l15.145-14.72h6.559l-18.07,17.409l20.523,19.533
-		h-6.652l-17.504-16.843v16.843h-4.859V23.3h4.859V38.021z"/>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M179.377,60.242h-24.391V23.3h23.873v3.821h-19.014v12.031h18.021
-		v3.821h-18.021v13.447h19.531V60.242z"/>
-	<path fill="none" stroke="#fff" stroke-miterlimit="10" d="M210.756,27.122h-11.369v33.121h-4.861V27.122H183.25V23.3h27.506
-		V27.122z"/>
-</g>
-<line fill="none" stroke="#fff" stroke-miterlimit="10" x1="31.333" y1="72.334" x2="215.333" y2="72.334"/>
-<line fill="none" stroke="#fff" stroke-miterlimit="10" x1="31.333" y1="79.334" x2="215.333" y2="79.334"/>
-</svg>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="495px" height="220px" viewBox="0 0 495 220" enable-background="new 0 0 495 220" xml:space="preserve">
+                <g>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M247.5,210.371h217.073v-56.474
+                        c-24.669,0-44.667-19.998-44.667-44.667s19.998-44.667,44.667-44.667V10.932H247.5"/>
+                </g>
+                <g>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M464.573,153.897v56.474h19.53l-10.352-10.352v-1.033l12.006-12.008
+                        c0.564-0.563,0.564-1.477,0-2.041l-12.006-12.006v-0.857l12.006-12.008c0.564-0.563,0.564-1.477,0-2.041l-6.582-6.582
+                        C474.598,153.026,469.688,153.897,464.573,153.897C458.272,153.897,456.229,153.116,464.573,153.897z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M474.506,65.686l-0.754-0.753v-0.858l12.006-12.006
+                        c0.564-0.563,0.564-1.478,0-2.041L473.752,38.02v-1.034l12.006-12.006c0.564-0.563,0.564-1.478,0-2.041l-12.006-12.006h-9.179
+                        v53.631c3.794,0.163-4.305,0,0,0C467.988,64.563,471.31,64.959,474.506,65.686z"/>
+                </g>
+                <g>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M247.5,210.371H31.386v-56.474c24.669,0,44.667-19.998,44.667-44.667
+                        S56.055,64.563,31.386,64.563V10.932H247.5"/>
+                </g>
+                <g>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M31.386,153.897v56.474h-19.53l10.352-10.352v-1.033l-12.006-12.008
+                        c-0.564-0.563-0.564-1.477,0-2.041l12.006-12.006v-0.857l-12.006-12.008c-0.564-0.563-0.564-1.477,0-2.041l6.582-6.582
+                        C21.362,153.026,26.271,153.897,31.386,153.897C37.687,153.897,39.731,153.116,31.386,153.897z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" d="M21.454,65.686l0.754-0.753v-0.858L10.202,52.067
+                        c-0.564-0.563-0.564-1.478,0-2.041L22.208,38.02v-1.034L10.202,24.979c-0.564-0.563-0.564-1.478,0-2.041l12.006-12.006h9.179
+                        v53.631c-3.794,0.163,4.305,0,0,0C27.971,64.563,24.65,64.959,21.454,65.686z"/>
+                </g>
+                <line fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" x1="85.5" y1="147.5" x2="410" y2="147.5"/>
+                <line fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" x1="85.5" y1="137.5" x2="410" y2="137.5"/>
+                <g>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M126.285,116.5h-7.258V63.059h-13.872v-6.871h35.004v6.871h-13.874V116.5z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M164.504,116.5h-7.258V56.188h7.258V116.5z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M228.995,67.708c-4.492-3.906-9.64-5.886-15.443-5.938
+                        c-6.664,0.104-12.115,2.54-16.355,7.306c-4.442,4.636-6.689,10.418-6.739,17.346c0.05,6.72,2.246,12.424,6.587,17.112
+                        c4.24,4.819,9.691,7.28,16.354,7.384c5.906-0.052,11.105-2.136,15.597-6.251v8.867c-4.816,2.785-9.934,4.203-15.354,4.256
+                        c-8.522-0.104-15.644-3.125-21.367-9.063c-5.925-5.807-8.95-13.164-9.076-22.07c0.125-9.166,3.176-16.705,9.151-22.617
+                        c5.773-5.989,13.085-9.036,21.934-9.141c5.269,0,10.172,1.367,14.711,4.099V67.708z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M281.802,56.188h9.543l-26.282,27.109L291.8,116.5h-9.841l-21.992-28.083l-2.971,2.89V116.5
+                        h-7.258V56.188h7.258v26.166L281.802,56.188z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M308.152,56.188h31.388v6.871h-24.13v16.883h23.41v6.867h-23.41v22.82h24.13v6.871h-31.388
+                        V56.188z"/>
+                    <path fill="none" stroke="#ffffff" stroke-width="2px" d="M375.934,116.5h-7.258V63.059h-13.872v-6.871h35.004v6.871h-13.874V116.5z"/>
+                </g>
+                <polygon fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" points="247.5,153.971 252.09,163.272 262.355,164.764 
+                    254.928,172.004 256.682,182.229 247.5,177.401 238.318,182.229 240.071,172.004 232.644,164.764 242.909,163.272 "/>
+                <polygon fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" points="207.5,153.971 212.09,163.272 222.355,164.764 
+                    214.928,172.004 216.682,182.229 207.5,177.401 198.318,182.229 200.071,172.004 192.644,164.764 202.909,163.272 "/>
+                <polygon fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" points="167.5,153.971 172.09,163.272 182.355,164.764 
+                    174.928,172.004 176.682,182.229 167.5,177.401 158.318,182.229 160.071,172.004 152.644,164.764 162.909,163.272 "/>
+                <polygon fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" points="327.5,153.971 332.09,163.272 342.355,164.764 
+                    334.928,172.004 336.682,182.229 327.5,177.401 318.318,182.229 320.071,172.004 312.644,164.764 322.908,163.272 "/>
+                <polygon fill="none" stroke="#ffffff" stroke-width="2px" stroke-miterlimit="10" points="287.5,153.971 292.09,163.272 302.355,164.764 
+                    294.928,172.004 296.682,182.229 287.5,177.401 278.318,182.229 280.071,172.004 272.644,164.764 282.908,163.272 "/>
+                </svg>
         </div>
         <div class="ticket">
             <ul>
@@ -182,18 +215,17 @@
         <div class="wrap_5">
             <div class="wrap_5_t">
             <h2>MAP</h2>
-            <div class="line_drawing">
-                1
+            <div id="line_drawing4" class="drawing_4">
             </div>
             </div>
             <div class="map">
-                <div class="map_icon1">1</div>
-                <div class="map_icon2">2</div>
-                <div class="map_icon3">3</div>
+                <div class="mapping map_icon1">1</div>
+                <div class="mapping map_icon2">2</div>
+                <div class="mapping map_icon3">3</div>
             </div>
             <div class="map_icon">
                 <ul>
-                    <li><a href="#">1</a></li>
+                    <li><a href="#" class="map_icon1_1">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <!--특정 시설을 클릭하면 그 시설에 효과가 생기는 jquery 삽입 예정 -->
@@ -266,7 +298,32 @@ var scrollFunc = function (e) {
 
         }
     }
-
+    if (pageIndex === -0) {
+			
+            replaceWithPaths($('svg'));
+            startSVGAnimation($('svg'));
+		}
+    
+    if (pageIndex === -1) {
+			$('.drawing_1').animate( {width:'100%'},2000);
+            
+		}
+    
+    if (pageIndex === -2) {
+			$('.drawing_2').animate( {width:'100%'},2000);
+		}
+    
+    if (pageIndex === -3) {
+			$('.drawing_3').animate( {width:'100%'},2000);
+        
+replaceWithPaths($('svg'));
+startSVGAnimation($('svg'));
+		}
+    
+    if (pageIndex === -4) {
+			$('.drawing_4').animate( {width:'100%'},2000);
+		}
+    
 }
 
 //페이지에 스크롤이벤트 bind
@@ -516,22 +573,36 @@ function replaceWithPaths(parentElement) {
 function startSVGAnimation(parentElement) {
     drawSVGPaths(parentElement, 1000, 1000, 50);
 }
-
-replaceWithPaths($('svg'));
-startSVGAnimation($('svg'));
     
+    
+    replaceWithPaths($('svg'));
+    startSVGAnimation($('svg'));
+
+//select 기능     
+
 $(function() {
 		var selectedClass = "";
-		$("p").click(function(){
+		$("p.date").click(function(){
 		selectedClass = $(this).attr("data-rel");
-    $("#line_up").fadeTo(500, 0);
-    $("#time_up").fadeTo(500, 0);
+      $("#line_up").fadeTo(500, 0);
 		$("#line_up div").not("."+selectedClass).fadeOut();
-        $("#time_up div").not("."+selectedClass).fadeOut();
     setTimeout(function() {
       $("."+selectedClass).fadeIn();
       $("#line_up").fadeTo(500, 1);
-      $("#time_up").fadeTo(500, 1);
+    }, 500);
+		
+	});
+});
+
+$(function() {
+		var selectedClass2 = "";
+		$("p.time").click(function(){
+		selectedClass2 = $(this).attr("data-rel");
+    $("#time_up div").fadeTo(500, 0);
+		$("#time_up div").not("."+selectedClass2).fadeOut();
+    setTimeout(function() {
+      $("."+selectedClass2).fadeIn();
+      $("#time_up div").fadeTo(500, 1);
     }, 500);
 		
 	});
@@ -563,7 +634,7 @@ $(function () {
                     'left': 0
                 }, 800);
             }
-            
+            console.log(scrolls);
         });
         //오른쪽 박스
         $boxesright.each(function () {
@@ -595,6 +666,45 @@ $(function () {
     });
     $(window).trigger('scroll');
 });
+    
+//타이머 
+    
+var timer;
+
+var compareDate = new Date();
+compareDate.setDate(compareDate.getDate() + 3); //just for this demo today + 7 days
+
+timer = setInterval(function() {
+  timeBetweenDates(compareDate);
+}, 1000);
+
+function timeBetweenDates(toDate) {
+  var dateEntered = toDate;
+  var now = new Date();
+  var difference = dateEntered.getTime() - now.getTime();
+
+  if (difference <= 0) {
+
+    // Timer done
+    clearInterval(timer);
+  
+  } else {
+    
+    var seconds = Math.floor(difference / 1000);
+    var minutes = Math.floor(seconds / 60);
+    var hours = Math.floor(minutes / 60);
+    var days = Math.floor(hours / 24);
+
+    hours %= 24;
+    minutes %= 60;
+    seconds %= 60;
+
+    $("#days").text(days);
+    $("#hours").text(hours);
+    $("#minutes").text(minutes);
+    $("#seconds").text(seconds);
+  }
+}
 
 </script>
 

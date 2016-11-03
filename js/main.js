@@ -1,3 +1,26 @@
+/*로딩 모션 
+$.ajax({
+     type:"POST"
+    ,url: "index.html"
+    ,data:""
+    ,success:function(res){
+        $("#loading").animate({width:'100%'},3000);
+        
+    }
+    ,beforeSend:function(){
+        $("#loading").animate({width:'100%'},3000);
+    }
+    ,complete:function(){
+        $("#loading").animate({opacity:0},800);
+        //$("#loading").addClass('load_none');
+ 
+    }
+    ,error:function(e){
+        alert("죄송합니다 페이지를 로드할 수 없습니다");
+    }
+    ,timeout:100000
+});*/
+
 $(document).ready(function(){
     $(".menu_bar").click(function(){
         $("#menulist").fadeToggle("slow");
@@ -249,11 +272,31 @@ if (document.addEventListener) {
 window.onmousewheel = document.onmousewheel = scrollFunc;
 /************** 스크롤방향 판단 *****************/
 
-// index 0 의 모션을 초기화시키는 function 
+// index 0 의 모션을 초기화시키는 function animate 말고 css로만 초기화 시켜도 됨!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 그러함!!!!!!!!!!!!!!! remove class add class같은걸로 응용해도 할 수 있음
+// 1번이 있고 2번이 있다 하면 하위 클래스들을 셀렉팅해서 초기화 animate가 과부화가 많이 걸림 css로만 해도 되고 class를 더하고 빼는걸로만도 제어할 수 있음 애니메이션 실행 시키고 하던가 올리기 전에 reset class를 추가하고 뺴고
+// 화면 전환이 되는 타이밍이 같으므로 뒤에 애들 다 멈추고 스크룰이 움직이는 애니메이션이 끝났을때 애니메이션이 끝나고 reset class를 붙이는 것 
+
+/*var resetData = [
+    //page1
+    {
+        '.boxleft': {'opacity': 0, 'left': '-30%'}
+    }
+]*/
+
+/*function resetPage(page) {
+    for (var item in resetData[page]) {
+        reset(item, scene1[item]);
+    }
+}
+resetPage(0);*/
+
 function resetpage1() {
-            $('.boxleft').animate( {'opacity': 0,'left': '-30%'});
-            $('.boxright').animate( {'opacity': 0,'left': '30%'});
-            $('.show_box2').animate( {'opacity': 0,'top': '100px'});
+//            $('.boxleft').css( {'opacity': 0,'left': '-30%'});
+//            $('.boxright').css( {'opacity': 0,'left': '30%'});
+//            $('.show_box2').css( {'opacity': 0,'top': '100px'});
+    for (var item in scene1) {
+        reset(item, scene1[item]);
+    }
 }
 // index -1 의 모션을 초기화시키는 function 
 function resetpage2() {
@@ -281,6 +324,10 @@ function resetpage4() {
 function resetpage5() {
             
 }
+/*
+function reset(selector, prop) {
+    $(selecotr).css(prop);
+}*/
     
     
     

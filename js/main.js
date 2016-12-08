@@ -235,7 +235,6 @@ $(function(){
 	$('.slider ul li').each(function(index){
 		var index = index+1;
         var sliderWidth = $('.slider ul li').width(); // 이미지 넓이
-		var leftoffset = index*sliderWidth-sliderWidth;
 		$(this).attr('data-index',index);
 		$('.paging').append("<a href='javascript:;' data-index='"+index+"'>"+index+"</a>");
 		if(index == 1){

@@ -222,22 +222,6 @@ $(function () {
 
 
 
-
-
-/*var moveLeft = function (){
-                $('.slider ul').children('li:last-child').prependTo($('.slider ul'));
-                $('.slider ul').css('margin-left', sliderWidth * -1);
-                $('.slider ul').animate({'margin-left': ''
-                        },500);
-            };
-var moveRight = function (){
-                $('.slider ul').animate({'margin-left': sliderWidth * -1
-                        },500,function(){
-                        $('.slider ul').children('li:first-child').appendTo($('.slider ul'));
-                        $('.slider ul').css('margin-left','');
-                                         });
-            };*/
-
 $(function(){
 	var sliderLenght= $('.slider ul li').length;	
     var sliderWidth = $('.slider ul li').width();
